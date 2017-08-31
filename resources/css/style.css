@@ -1,0 +1,156 @@
+/*Universal Styles*/
+
+html {
+    font-size: 16px;
+    font-family: "helvetica", serif;
+}
+
+body {
+    min-width: 475px;
+}
+
+@media only screen and (max-width: 886px) {
+    html {
+        font-size: 14px
+    }
+}
+@media only screen and (max-width: 560px) {
+    html {
+    font-size: 12px;
+    }
+}
+
+
+/*Header*/
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+header .top-heading {
+    display: flex;
+    align-items: center;
+}
+header img {
+    height: 3rem;
+    padding-left: 1rem;
+}
+header .top-heading .colmar {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: black;
+}
+header .top-heading .academy {
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: green;
+}
+header .nav {
+    margin-right: 1.5rem;
+}
+header .nav .menu-item {
+    padding-left: 1rem;
+}
+header .nav-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 650px) {
+    header .top-heading {
+        display: none;
+    }
+    header .nav {
+        display: none;
+    }
+    header .nav-mobile {
+        display: block;
+        width: 100%;
+    }
+    header .nav-mobile ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/*Main Banner*/
+.content-container {
+    position: relative;
+    top: 5rem;
+}
+#main-banner {
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-banner img {
+    width: 60%;
+    margin: 2rem 1.5rem;
+}
+.banner-text {
+    margin-right: 3rem;
+    width: 40%;
+}
+.banner-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.banner-text h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+.banner-text p {
+    margin-top: 2rem;
+    background-color: darkgoldenrod;
+    text-align: center;
+    padding: 1rem 0;
+    width: 90%;
+    color: white;
+}
+
+@media only screen and (max-width: 1080px) {
+    .banner-text h1 {
+        font-size: 2rem;
+    }
+    .banner-text h3 {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #main-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #main-banner img {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .banner-text {
+        margin: 2rem 1rem;
+    }
+    /*UP TO HERE - not sure if the banner text is szed properly?*/
+}
+
+
+/*second part*/
+
+
+
+
+
