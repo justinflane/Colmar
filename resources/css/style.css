@@ -348,8 +348,8 @@ header .nav-mobile {
 .program-text-mob h2 {
     margin: 1rem;
     background-color: lightgrey;
-    text-align: center;
-    padding: 2rem 0;
+    text-align: left;
+    padding: 2rem 1rem;
     color: dimgray;
     font-weight: bold;
     font-size: 2rem;
